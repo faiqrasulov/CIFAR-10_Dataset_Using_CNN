@@ -1,0 +1,14 @@
+Disclaimer: The dataset may have some minor modifications for educational purposes.
+
+The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class.
+There are 50000 training images and 10000 test images. The dataset is divided into five training batches and one test batch, each with 10000 images.
+
+Dataset can be found here.
+
+You are asked to train a model with following steps:
+1. Download, extract and load CIFAR10 image dataset using torchvision
+2. Show random batches of images in a grid using torchvision.utils.make_grid
+3. Create a convolutional neural network using with nn.Conv2d and nn.MaxPool2d layers 4. Train a convolutional neural network and visualize the losses and errors
+5. Understand overfitting and the strategies for avoiding it
+6. Generate predictions on single images from the test set
+7. Save and load model for further purposes
